@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(218, 225, 39);
+    position: relative;
+}
+.header .logo{
+    width: 40%;
+    height: inherit;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.header .logo img{
+    width: 180px;
+}
+.header .menu{
+    width: 60%;
+    height: inherit;
+    position: absolute;
+    line-height: 160px;
+    top: 10px;
+    right: 10px;
+}
+.header .menu ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+.header .menu ul li{
+    float: left;
+    width: 250px;
+}
+.header .menu ul li a{
+    color: #363434;
+    font-size: 25px;
+}
+.header .menu ul li:nth-of-type(1) a{
+    color: crimson;
+}
